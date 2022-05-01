@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  background-color: #EAF6F6;
+}
+
+h1 {
+  color: #35BCBF;
+  margin: 0;
+  padding: 1 rem;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: rgb(65, 80, 107);
+  font-family: 'Montseserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 40px;
+}
+
+h3 {
+  font-family: 'Montseserrat', sans-serif;
+  color: rgb(65, 80, 107);
+}
+
+
+hr {
+  margin:5% auto;
+  border-top: 5px dotted black;
+  width: 10%;
+}
+
+p {
+  line-height: 2;
+  color: #263849;
+  font-weight: bolder;
+}
+
+.top {
+  position: relative;
+  padding-top: 100px;
+  margin: 0rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 330px;
+  bottom: 350px;
+}
+
+.my-img {
+  height: 200px;
+  width: 200px;
+  margin-top: 3rem;
+}
+
+.skill-row {
+  text-align: left;
+  margin: 5rem auto;
+  width: 50%;
+}
+
+.gif-code {
+  width: 23%;
+  float: left;
+  margin-right: 3%;
+}
+
+.gif-web {
+  width: 25%;
+  float: right;
+  margin-left: 3%;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 2em 0 1em;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+#end {
+  color: #EAF6F6;
+  font-family: 'Montseserrat', sans-serif;
+  font-size: smaller; 
+  padding: 1em 0;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.contact-me {
+  margin-bottom:4%;
+} 
+
+a{
+  font-family: 'Montseserrat', sans-serif;
+  margin: 1em;
+}
+
+a:hover{
+  color:white;
+}
